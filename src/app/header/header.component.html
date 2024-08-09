@@ -1,13 +1,10 @@
 <div class="header">
   <div class="site-image">
-    <img
-      src="assets/black-friday-elements-assortment.jpg"
-      alt="image"
-      height="240"
-      width="320"
-    />
+    <img [src]="source" width="240" height="320" />
   </div>
   <div class="site-slogan">
-    <h2>Your one stop shop for everything.</h2>
+    <h2>{{ slogan }}</h2>
+    <h4>{{ 5 * 9 }}</h4>
+    <h3>{{ getData() }}</h3>
   </div>
 </div>
